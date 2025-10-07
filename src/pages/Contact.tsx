@@ -174,9 +174,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-sm text-muted-foreground">
-                        123 Agricultural District<br />
-                        Farmville, State 12345<br />
-                        United States
+                        Cross Road Shopping Mall, Sara Chowkdi,<br />
+                        B-10, Sardar Society,<br />
+                        Halvad Gujarat - 363330
                       </p>
                     </div>
                   </div>
