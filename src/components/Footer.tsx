@@ -52,13 +52,37 @@ const Footer = () => {
           {/* Products */}
           <div>
             <h3 className="font-semibold mb-4">Our Products</h3>
-            <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Weed Mat</li>
-              <li>Mulch Film</li>
-              <li>Crop Cover</li>
-              <li>Foam Net</li>
-              <li>Netlon Crop Cover</li>
-              <li>Fruit Cover</li>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors">
+                  Weed Mat
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors">
+                  Mulch Film
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors">
+                  Crop Cover
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors">
+                  Foam Net
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors">
+                  Netlon Crop Cover
+                </Link>
+              </li>
+              <li>
+                <Link to="/products" className="text-muted-foreground hover:text-primary transition-colors">
+                  Fruit Cover
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -72,7 +96,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 mt-0.5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 7227999529</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary" />
