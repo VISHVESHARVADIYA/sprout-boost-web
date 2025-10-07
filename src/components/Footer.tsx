@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Leaf, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   return (
@@ -8,11 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Leaf className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="text-xl font-bold">Cropexgrow</span>
+            <div className="flex items-center gap-3">
+              <img 
+                src={logo} 
+                alt="Cropexgrow Logo" 
+                className="h-12 w-auto object-contain"
+              />
+              <span className="text-xl font-bold">CropexGrow</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Empowering farmers with innovative crop protection solutions for sustainable agriculture.
@@ -74,6 +77,17 @@ const Footer = () => {
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary" />
                 <span>Agricultural District, Farmville</span>
+              </li>
+              <li className="flex items-start gap-2 text-sm">
+                <Instagram className="w-4 h-4 mt-0.5 text-primary" />
+                <a 
+                  href="https://www.instagram.com/cropexgrow" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  @cropexgrow
+                </a>
               </li>
             </ul>
           </div>

@@ -29,6 +29,7 @@ const Navbar = () => {
               alt="Cropexgrow Logo" 
               className="h-12 w-auto object-contain group-hover:scale-105 transition-transform"
             />
+            <span className="text-xl font-bold text-foreground">CropexGrow</span>
           </Link>
 
           {/* Desktop Navigation */}
