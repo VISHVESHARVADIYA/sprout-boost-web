@@ -145,8 +145,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-sm text-muted-foreground">info@cropexgrow.com</p>
-                      <p className="text-sm text-muted-foreground">support@cropexgrow.com</p>
+                      <p className="text-sm text-muted-foreground">cropexgrow@gmail.com</p>
                     </div>
                   </div>
 
@@ -156,8 +155,15 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
-                      <p className="text-sm text-muted-foreground">+91 7227999529</p>
-                      <p className="text-sm text-muted-foreground">Mon-Fri: 9AM - 6PM</p>
+                      <a
+                        href="https://wa.me/917227999529"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary hover:underline"
+                      >
+                        +91 7227999529
+                      </a>
+                      <p className="text-sm text-muted-foreground">Mon-Fri, Sun: 8AM - 8PM</p>
                     </div>
                   </div>
 
@@ -198,9 +204,9 @@ const Contact = () => {
                 <CardContent className="p-6">
                   <h3 className="font-semibold mb-2">Business Hours</h3>
                   <div className="space-y-1 text-sm text-muted-foreground">
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                    <p>Saturday: 10:00 AM - 4:00 PM</p>
-                    <p>Sunday: Closed</p>
+                    <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+                    <p>Saturday: Closed</p>
+                    <p>Sunday: 8:00 AM - 8:00 PM</p>
                   </div>
                 </CardContent>
               </Card>

@@ -92,11 +92,18 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 mt-0.5 text-primary" />
-                <span>info@cropexgrow.com</span>
+                <span>cropexgrow@gmail.com</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 mt-0.5 text-primary" />
-                <span>+91 7227999529</span>
+                <a
+                  href="https://wa.me/917227999529"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  +91 7227999529
+                </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary" />

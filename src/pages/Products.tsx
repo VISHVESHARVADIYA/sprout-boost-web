@@ -124,7 +124,7 @@ const Products = () => {
                   Request a Quote
                 </button>
               </a>
-              <a href="tel:+917227999529">
+              <a href="https://wa.me/917227999529" target="_blank" rel="noopener noreferrer">
                 <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground h-11 px-8">
                   Call Us Now
                 </button>
